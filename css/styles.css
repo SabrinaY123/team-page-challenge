@@ -1,0 +1,31 @@
+body {
+    padding: 0 200px;
+}
+
+/* Header */
+
+header {
+    padding: 4% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-description {
+    text-align: left;
+    max-width: 440px;
+}
+
+/* Directory */
+
+.team-member {
+    max-width: 300px;
+}
+
+.img-and-position {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-img {
+    max-width: 250px;
+}
