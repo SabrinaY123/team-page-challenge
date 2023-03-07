@@ -1,31 +1,153 @@
 body {
-    padding: 0 200px;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 /* Header */
 
 header {
-    padding: 4% 0;
+    padding: 3% 20%;
     display: flex;
     justify-content: space-between;
 }
 
+.heading-title {
+    font-family: 'PT Serif', serif;
+}
+
 .heading-description {
     text-align: left;
-    max-width: 440px;
+    max-width: 380px;
+}
+
+.heading-description> h3 {
+    font-weight: 800;
 }
 
 /* Directory */
 
+#directory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    height: 1200px;
+    align-items: flex-start;
+}
+
 .team-member {
-    max-width: 300px;
+    height: fit-content;
+    width: 290px;
+    margin: 2%;
+    flex-basis: 25%;
+    
 }
 
 .img-and-position {
-    display: flex;
-    flex-direction: row;
+    height: inherit;
+    position: relative;
+    display: grid;
 }
 
 .profile-img {
-    max-width: 250px;
+    width: 230px;
+    height: auto;
+}
+
+.position {
+    transform: rotate(90deg);
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin: 0;
+    left:160px;
+    top: 90px;
+    font-family: 'PT Serif';
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Individual Member Profiles */
+
+.Saba {
+    align-self: flex-end;
+}
+
+.Griff {
+    align-self: flex-end;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+
+.credits {
+    text-align: center;
+    color: #A9A9A9;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-link {
+    font-weight: 700;
+}
+
+.dev-icon {
+    width: 15px;
+}
+
+a {
+    color: #A9A9A9;
+}
+
+.devchallenges {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+/* Responsive CSS */
+@media (max-width:760px) {
+    .heading-title {
+        margin: 7% 0;
+    }
+
+    .profile-img {
+        width: 130px;
+        height: auto;
+    }
+
+    .position {
+        left: 40px;
+        top: 40px;
+    }
+    
+    .name {
+        text-align: left;
+    }
+
+    header {
+        padding: 3%;
+        display: block;
+    }
+
+    .team-member {
+        flex-basis: 30%;
+        margin: 5%;
+    }
+
+    .Skylah {
+        align-self: flex-end;
+    }
+
+    .Griff {
+        align-self: flex-start;
+    }
+
+    .Stan {
+        align-self:flex-end;
+    }
 }
