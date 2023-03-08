@@ -81,5 +81,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [Sabrinas-personal-site.com](https://sabrinay123.github.io/Personal-Site/)
-- GitHub [@sabriny123](https://github.com/SabrinaY123)
+- Website [My Website](https://sabrinay123.github.io/Personal-Site/)
+- GitHub [@sabrinay123](https://github.com/SabrinaY123)
