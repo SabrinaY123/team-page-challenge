@@ -1,13 +1,13 @@
 body {
     padding: 0 auto;
     font-family: 'Poppins', sans-serif;
-    margin: 4%;
+    margin: 2% 4%;
 }
 
 /* Header */
 
 header {
-    padding: 2% 2% 1% 8%;
+    padding: 1% 2% 1% 8%;
     display: flex;
 }
 
